@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "musiccritic"
+version = "0.1.0"
+description = ""
+authors = ["Valerio Velardo <velardovalerio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+essentia-tensorflow = "2.1b6.dev1110"
+openai = "1.10.0"
+python-dotenv = "1.0.1"
+isort = "5.13.2"
+black = "^23.12.1"
+
+[tool.poetry.scripts]
+musiccritic = "musiccritic.musiccritic:main"
+
+[tool.isort]
+profile = "black"
+known_third_party = []
+skip_glob = []
+line_length = 79
+
+[tool.black]
+line-length = 79
+exclude = '''
+/(
+	\.git
+| _build
+)/
+'''
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
