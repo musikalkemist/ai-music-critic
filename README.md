@@ -62,3 +62,6 @@ The application relies on the following libraries and APIs:
 - [Essentia ML Models](https://essentia.upf.edu/models.html) for music analysis
 - [OpenAI's Whisper](https://platform.openai.com/docs/guides/speech-to-text) for speech-to-text transcription
 - [OpenAI's GPT-4](https://platform.openai.com/docs/guides/text-generation/chat-completions-api) for text generation
+
+## License
+This project is licensed under the GPLv3 License. See the [LICENSE](LICENSE) file for details.
