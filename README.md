@@ -42,8 +42,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Usage
 1. Download the pre-trained Essentia models and the relative metadata JSON 
-   files from [Essentia's website]
-   (https://essentia.upf.edu/models.html) and place them in the `models` 
+   files from [Essentia's website](https://essentia.upf.edu/models.html) and place them in the `models` 
    directory. Check the `configs.py` file for the expected model names. If 
    you want to change the Essentia models you use, remember to change them in 
    the config file as well.
